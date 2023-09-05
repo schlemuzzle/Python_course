@@ -7,14 +7,16 @@
 # Output: 1 9
 
 n = int(input('Введите количество арбузов: '))
+
 smallW = int(input(f'Введите вес арбуза № 1: '))
 bigW = smallW
-for i in range(n - 1):
 
+for i in range(n - 1):
     temp = int(input(f'Введите вес арбуза № {i+1}: '))
     if temp > bigW:
         bigW = temp
     if temp < smallW:
         smallW =temp
+        
 print(smallW, bigW)
     
