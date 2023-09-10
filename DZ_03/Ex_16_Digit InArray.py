@@ -10,7 +10,7 @@ n = int(input('Введите количество элементов масси
 list_1 = [int(input("Введите элементы массива: ")) for i in range(n)]
 k = int(input('Введите искомое число: '))
 counter = 0
-for item in range(0, len(list_1)):
+for item in range(len(list_1)):
     if list_1[item] == k:
         counter += 1
-print(f'->  {counter}')
+print(f'-> {counter}')

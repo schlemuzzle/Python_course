@@ -22,16 +22,15 @@
 # print(n)
 
 # m = 0
-# while (n := int(input())) != 0:
-#         if n > m:
-#             m = n
-# print(m)
+while (n := int(input())) != 0:
+        if n > m:
+            m = n
+print(m)
 
 # or
 list_1 = []
 s = 1
 while s > 0:
-    s = int(input('введите число: '))
+    s = int(input())
     list_1.append(s)
-print(list_1)
 print(max(list_1))

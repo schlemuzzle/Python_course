@@ -28,24 +28,3 @@ for letter in all_letters:
         result_str += f'{letter}_{letters_count[letter]} '
         letters_count[letter] += 1
 print(result_str)
-
-# еще чере словарь:
-lst = 'a a a d c c b b d d a c c'
-# lst_1 = ''
-# test = {}
-# for i in lst:
-#     if i not in test:
-#         test[i] = 0
-#         lst_1 += i + ' '
-#     else:
-#         test[i] += 1
-#         lst_1 += (f'{i}_{test[i]}')
-# print(lst_1)
-
-st = ''
-for i, ch in enumerate(lst):
-    if (_:= lst[:i].count(ch)) > 0:
-        st += (f'{ch}_{_}')
-    else:
-        st += ch + ' '
-print(st)
