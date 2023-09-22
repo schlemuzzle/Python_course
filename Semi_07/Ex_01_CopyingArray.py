@@ -8,9 +8,6 @@
 # получить его как есть.
 # Напишите такое лямбда-выражение transformation, чтобы transformed_values получился копией values.
 
-
-
-
 trasformation = lambda x: x
 
 values = [1, 23, 42, 'asdfg'] 
