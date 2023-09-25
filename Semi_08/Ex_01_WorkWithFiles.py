@@ -6,9 +6,9 @@
 
 from pathlib import Path
 
-file_path = Path('C:', '\Users', '\Админ', '\Desktop', '\ZsYP', 'data.txt')
+file_path = Path('ZSYP', 'data.txt')
 
-# file_path = r'Python_course\new.txt'
+# file_path = r'Python_course\new.txt' # r - заставляет читать строку, игнорируя спецсимволы (\n!)
 print(file_path)
 
 with open(file_path, 'w', encoding='utf8') as text_file:
