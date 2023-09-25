@@ -44,3 +44,5 @@ https://vk.com/@we_use_python-uchimsya-sozdavat-pakety-python
 Customtkinter: https://github.com/TomSchimansky/CustomTkinter
 
 Потрясающие интерфейсы на Python: https://www.youtube.com/@WandersonItsMe/featured
+
+PARTYTABLE - библиотека для работы с таблицами(интерфейс и прочее...)

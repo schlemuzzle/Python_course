@@ -1,4 +1,4 @@
-# f = open('data.txt', "w", encoding = "utf8")
+# f = open('data_1.txt', "w", encoding = "utf8")
 
 # f.write('Hello, wolrld!')
 
@@ -6,7 +6,7 @@
 
 from pathlib import Path
 
-file_path = Path('ZSYP', 'data.txt')
+file_path = Path('ZSYP', 'data_1.txt')
 
 # file_path = r'Python_course\new.txt' # r - заставляет читать строку, игнорируя спецсимволы (\n!)
 print(file_path)
